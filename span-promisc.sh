@@ -27,3 +27,8 @@ services:
 EOF
 
 echo "Docker Compose file created at /root/docker/span-promisc/docker-compose.yml"
+
+cd /root/docker/span-promisc/   
+sudo docker-compose  up -d
+
+echo "Docker Compose was started check with docker ps"
